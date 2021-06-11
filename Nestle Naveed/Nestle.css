@@ -1,0 +1,286 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/* Resopnsive */
+
+
+@media(max-width:500px){
+    .navbar{
+        display: flex;
+        flex-direction: row-reverse !important;
+    }
+    .tips .table{
+        display: flex;
+        flex-direction: column;
+    }
+    .kids .table{
+        display: flex;
+        flex-direction: column;
+    }
+    .way .table{
+        display: flex;
+        flex-direction: column;
+    }
+    .signs .table{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/* logo and navbar */
+
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+#navbarNavAltMarkup > div > a:nth-child(n){
+    padding: 3rem 3rem ;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: rgb(70, 69, 69);
+}
+#navbarNavAltMarkup > div > a:nth-child(n):hover{
+    text-decoration: 0.2rem red underline;
+
+}
+
+
+/* header */
+
+
+.header-text{
+    background-image: url(1420x580.jpg);
+    object-fit: contain;
+    width: 98%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 35rem;
+    color: white;
+    padding: 9rem 8rem 8rem 8rem;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.header-text .heading{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.header-text .para{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.description{
+    margin-left: 1rem;
+    font-size: 0.7rem;
+    margin-top: 2rem;
+}
+.description .button{
+    text-decoration: none;
+    color: rgb(133, 127, 127);
+}
+.description .button:hover{
+    text-decoration: underline;
+    text-decoration-color: ;
+    color: rgb(133, 127, 127);
+}
+.description .page{
+    color: red;
+}
+
+
+/* tips */
+
+
+.tips{
+    text-align: center;
+    margin: 0 2.5rem;
+    margin-top: 3rem;
+}
+.tips .main-img{
+    width: 6rem;
+    height: 5rem;
+    object-fit: contain;
+}
+.tips .main-para{
+    font-size: 1.3rem;
+}
+.tips .table{
+    display: flex;
+    background-color: rgb(42, 168, 218);
+}
+.tips .table img{
+    height: 40rem;
+    width: 100%;
+}
+.tips .table .text{
+    border: transparent;
+    background-color:  rgb(42, 168, 218);;
+    height: 100%;
+    width: 100%;
+    text-align: initial;
+    padding: 3rem;
+    color: white;
+}
+.tips .table .text .main-heading{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.tips .table .text .heading{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.tips .table .text .para{
+    font-size: 1rem;
+}
+
+
+/* water important for kids */
+
+
+.kids .main-heading{
+    font-size: 3rem;
+    font-weight: 400;
+    color: rgb(0, 63, 114);
+    text-align: center;
+}
+.kids .table{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.kids img{
+    border-radius: 15rem;
+    height: 20rem;
+    object-fit: contain;
+    width: 20rem;
+}
+.kids .table .heading{
+    font-size: 2rem;
+    color: rgb(0, 63, 114);
+}
+.kids .table .para{
+    font-size: 1.3rem;
+}
+
+
+/* way of drinking */
+
+
+.way .main-heading{
+    font-size: 3rem;
+    font-weight: 400;
+    color: rgb(0, 63, 114);
+    text-align: center;
+}
+.way .table{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.way img{
+    border-radius: 15rem;
+    height: 10rem;
+    object-fit: contain;
+    width: 10rem;
+}
+.way .table .heading{
+    font-size: 2rem;
+    color: rgb(0, 63, 114);
+}
+.way .table .para{
+    font-size: 1.3rem;
+}
+.way .message{
+    border: transparent;
+    background-color: rgb(245, 248, 252);
+    height: 100%;
+    color: rgb(0, 63, 114);
+    text-align: center;
+    margin: 0 2rem;
+    font-size: 1.4rem;
+}
+
+
+/* signs */
+
+
+.signs-text{
+    text-align: center;
+    margin: 0 2.5rem;
+}
+.signs-text .main-para{
+    font-size: 1.3rem;
+}
+.signs-text .main-heading{
+    font-size: 3rem;
+    font-weight: 400;
+    color: rgb(0, 63, 114);
+    text-align: center;
+}
+.signs .table{
+    border: transparent;
+    display: flex;
+    width: 96%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #d4f0e5;
+    height: 100%;
+}
+.signs .table .para{
+    width: 70%;
+    color: rgb(139, 211, 207);
+    font-size: 0.9rem;
+    margin: 5rem 0 0 4rem;
+}
+.signs .table img{
+    width: 99%;
+}
+
+
+/* footer and contact details */
+
+
+.footer{
+    background-image: url(m-2-footer-desktop.png);
+    width: 100%;
+    padding: 3rem 3rem 2rem 3rem;
+    margin-top: 4rem;
+    background-size: cover;
+}
+.footer .contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .contact .details{
+    display: flex;
+    flex-direction: column;
+}
+.footer .contact .details a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 2rem;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.footer .contact .details a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(70, 165, 202);
+}
+.footer .contact .details .social-media{
+    padding: 0.5rem 2rem;
+    color: white;
+}
+.footer .contact .details .social-media i:hover{
+    color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+.footer .address{
+    color: white;
+}
