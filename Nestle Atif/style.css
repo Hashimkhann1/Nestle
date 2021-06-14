@@ -347,13 +347,40 @@ height: 14vh;
     color: white;
 }
 
-/* .ico {
-    display: flex;
-    
-    justify-items: end;
-} */
-/* .end
-{
+.footer{
     background-image: url(/images/m-2-footer-desktop.png);
-
-} */
+    width: 100%;
+    padding: 3rem 3rem 2rem 3rem;
+    margin-top: 4rem;
+    background-size: cover;
+}
+.footer .contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .contact .details{
+    display: flex;
+    flex-direction: column;
+}
+.footer .contact .details a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 2rem;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.footer .contact .details a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(70, 165, 202);
+}
+.footer .contact .details .social-media{
+    padding: 0.5rem 2rem;
+    color: white;
+}
+.footer .contact .details .social-media i:hover{
+    color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+.footer .address{
+    color: white;
+}
