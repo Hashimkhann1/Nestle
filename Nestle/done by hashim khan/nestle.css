@@ -1,0 +1,254 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	/* width: 90%; */
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+#main{
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+
+}
+.logo-pic{
+	width: 142px;
+	height: 136px;
+	padding-left: 45%;
+}
+.logo-pic img{
+	width: 100%;
+	height: 100%;
+}
+.menu ul{
+	margin-left: 10%;
+	/* padding-left: 10%; */
+	padding-top: 2%;
+	display: flex;
+	list-style-type: none;
+}
+.menu ul li a{
+	padding-left: 92px;
+	text-decoration: none;
+	color: #616060;
+	font-size: 0.9em;
+	font-weight: 700;
+}
+@media (max-width:70em){
+	#purified-water{
+		height: 60vh;
+	}
+}
+#purified-water{
+	background-image: url(bg.jpeg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	margin-left: 7%;
+	margin-top: 10px;
+	width: 85%;
+	height: 55vh;
+}
+@media (max-width:72em){
+	.purifid-text{
+		padding-top: 170px;
+		padding-left: 80px;
+	}
+	.purifid-text h1{
+		font-size: 2em;
+	}
+}
+.purifid-text{
+	padding-top: 200px;
+	padding-left: 100px;
+}
+.purifid-text p{
+	font-size: 0.8em;
+	color: #fff;
+	word-spacing: 10px;
+	font-weight: normal;
+}
+.purifid-text h1{
+	font-size: 3.4em;
+	color: #fff;
+	font-weight: normal;
+}
+.buy-pw ul{
+	display: flex;
+	list-style-type: none;
+}
+.buy-pw{
+	margin-left: 130px;
+	margin-top: 10px;
+}
+.buy-pw ul li a{
+	text-decoration: none;
+	padding-right: 18px;
+	color: #616060;
+	font-size: 0.7em;
+}
+.buy-pw ul li a:hover{
+	text-decoration: underline;
+}
+.buy-pw li p{
+	padding-left: 10px;
+	color: rgb(230, 122, 122);
+	font-size: 0.7em;
+	padding-top: 5px;
+
+}
+#menu-two{
+	margin-top: 8%;
+	
+	/* border-top: 1px solid #7cb6e2; */
+}
+.menu-two-list ul{
+	width: 60%;
+	display: flex;
+	list-style-type: none;
+	margin-left: 20%;
+	line-height: 50px;
+	border-top: 2px solid #80e8e6;
+	border-bottom: 2px solid #80e8e6;
+	
+}
+.menu-two-list ul li a{
+	text-decoration: none;
+	font-size: 1.4em;
+	padding-left: 90px;
+	padding-top: 10px;
+	padding-bottom: 14px;
+	color: #7cb6e2;
+	transition: 0.8s;
+}
+.menu-two-list li a:hover{
+	color: #7cb6e2;
+	text-decoration: 4px underline #f05cad;
+}
+.far,
+.fas,
+.fad{
+	
+	padding-left: 10px;
+	color: rgb(170, 114, 226);
+}
+#buy-now{
+	display: grid;
+	grid-template-columns: repeat(3,25%);
+	grid-template-rows:repeat(2,auto) ;
+	justify-content: space-evenly;
+	margin-top: 100px;
+	grid-row-gap: 20px;
+	grid-column-gap: 30px;
+	/* margin-left: 60px; */
+	
+}
+.buy{
+	width: 330px;
+	/* border: 1px solid #000; */
+}
+.buy-img img{
+	width: 100%;
+	height: 100%;
+}
+.buy-text a{
+	align-items: center;
+	text-align: center;
+	font-size: 1.7em;
+	color: #3164b1;
+	font-size: 1.8em;
+	text-decoration: none;
+}
+.buy-text a:hover{
+	text-decoration: underline;
+}
+.buy span{
+	font-size: 0.4em;
+}
+.buy-logo .fa-boot{
+	padding-top: 15px;
+	font-size: 1.6em;
+	color: #31a8b1;
+}
+.buy-view{
+	padding-top: 20px;
+}
+.buy-view a{
+	font-size: 0.9em;
+	color: rgb(91, 209, 215);
+	text-transform: uppercase;
+	word-spacing: 6px;
+}
+.buy-btn{
+	font-size: 0.5em;
+	padding-top: 26px;
+}
+.buy-btn a{
+	background-color: #e9007f;
+	padding: 16px 26px;
+	border-radius: 10px;
+	color: #fff;
+	transition: 0.3s;
+}
+.buy-btn a:hover{
+	text-decoration: underline;
+}
+.delivery{
+	display: flex;
+	justify-content: center;
+	margin-top: 280px;
+}
+.del-text{
+	background-color: #f05cad;
+	width: 22%;
+	height: 58.3vh;
+	padding-top: 130px;
+	padding-left: 50px;
+	color: #fff;
+}
+.del-text p{
+	font-size:0.7em;
+	letter-spacing: 5px;
+	padding-bottom: 30px;
+}
+.del-text h1{
+	font-size: 2.3em;
+	font-weight: normal;
+	word-spacing: 10px;
+	padding-bottom: 110px;
+}
+.del-text a{
+	color: #fff;
+	background: #e9007f;
+	padding: 16px 54px;
+	text-decoration: none;
+	transition: 0.5s;
+	border-radius: 7px;
+}
+.del-text a:hover{
+	background-color: #834365;
+}
+.foot-main{
+	background-image: url(water.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 70%;
+	height: 15vh;
+	margin-left: 8%;
+	margin-top: 60px;
+	display: flex;
+	padding-left: 200px;
+	padding-top: 80px;
+	color: #fff;
+}
+.foot-text p{
+	padding-left: 50px;
+	padding-top: 20px;
+}
+.fa-facebook-square{
+	padding-left: 50px;
+}
